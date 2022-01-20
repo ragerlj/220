@@ -1,6 +1,6 @@
 """
-Name: <your name goes here – first and last>
-<ProgramName>.py
+Name: <your name goes here – Logan Rager>
+<hw1>.py
 
 Problem: <Brief, one or two sentence description of the problem that this program solves, in your own words.>
 
@@ -12,23 +12,37 @@ I certify that this assignment is my own work, but I discussed it with: <Name(s)
 
 
 def calc_rec_area():
-    pass
+    length = eval(input("Enter the length: "))
+    width = eval(input("Enter the width: "))
+    area = length * width
+    print("Area =", area)
 
 
 def calc_volume():
-    pass
+    length = eval(input("Enter the length: "))
+    width = eval(input("Enter the width: "))
+    height = eval(input("Enter the height: "))
+    volume = length * width * height
+    print("The volume is", volume)
 
 
 def shooting_percentage():
-    pass
+    shots = eval(input("How many shots were attempted? "))
+    made = eval(input("How many shots were made? "))
+    percentage = (made / shots) * 100
+    print("Shooting percentage: ",percentage,"%")
 
 
 def coffee():
-    pass
+    lbs = eval(input("How many pounds of coffee would you like? "))
+    total = ((10.50 + 0.86) * lbs) + 1.50
+    print("Your total is $", total)
 
 
 def kilometers_to_miles():
-    pass
+    kilo = eval(input("Enter number of Kilometers: "))
+    miles = kilo / 1.6
+    print("That is", miles, "miles!")
 
 
 if __name__ == '__main__':
